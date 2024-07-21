@@ -26,10 +26,12 @@ NullPointerException: Unboxing a null value can lead to NullPointerException.
 Example:
 
 Integer wrapperInt = null;
-int primitiveInt = wrapperInt; // Throws NullPointerException
+int primitiveInt = wrapperInt;
+
 Best Practices
 Minimize Unnecessary Boxing/Unboxing: Avoid excessive boxing/unboxing operations in performance-critical sections of code.
 Use Primitives When Possible: Prefer using primitives in your code unless you need to work with a collection or API that requires objects.
+
 Example Code
 
 public class UnboxingExample {
