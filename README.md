@@ -25,7 +25,6 @@ Performance Overhead: Frequent boxing and unboxing can lead to performance issue
 NullPointerException: Unboxing a null value can lead to NullPointerException.
 
 Example:
-
 Integer wrapperInt = null;
 int primitiveInt = wrapperInt;
 
