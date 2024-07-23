@@ -23,6 +23,7 @@ Collection Framework Compatibility: Allows primitives to be used in collections 
 Potential Pitfalls
 Performance Overhead: Frequent boxing and unboxing can lead to performance issues due to the additional object creation and garbage collection.
 NullPointerException: Unboxing a null value can lead to NullPointerException.
+
 Example:
 
 Integer wrapperInt = null;
